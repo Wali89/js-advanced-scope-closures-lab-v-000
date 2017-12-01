@@ -1,5 +1,5 @@
-function produceDrivingRange(distanceMax) {
-  return function(drivingRange) {
+function produceDrivingRange(blockRange) {
+  return function(startPoint, endpoint) {
     if (drivingRange <= distanceMax) {
       return true
     }
