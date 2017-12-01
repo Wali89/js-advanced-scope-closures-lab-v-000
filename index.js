@@ -10,6 +10,6 @@ function produceDrivingRange(blockRange) {
     else {
       return (travelDistance - blockRange) + ' blocks out of range';
     }
-    
+
   }
 }
