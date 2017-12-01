@@ -5,9 +5,9 @@ function produceDrivingRange(blockRange) {
     let travelDistance = blockEnd - blockStart;
     if (travelDistance <= blockRange) {
       return 'within range by ' + travelDistance;
-    };
+    }
     else {
       return travelDistance + ' blocks out of range';
-    };
+    }
   }
 }
