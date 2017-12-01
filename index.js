@@ -8,8 +8,8 @@ function produceDrivingRange(blockRange) {
       return 'within range by ' + (blockRange - travelDistance);
     }
     else {
-      return travelDistance + ' blocks out of range';
+      return (travelDistance - blockRange) + ' blocks out of range';
     }
-
+    
   }
 }
