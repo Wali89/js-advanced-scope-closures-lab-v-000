@@ -15,7 +15,8 @@ function produceDrivingRange(blockRange) {
 }
 
 function produceTipCalculator(tipPercent) {
+  let tip = (Number(tipPercent)) / 100
   return function(fare) {
-
+    return fare * tip
   }
 }
